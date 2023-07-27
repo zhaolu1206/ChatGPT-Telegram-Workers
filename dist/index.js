@@ -896,7 +896,7 @@ async function requestImageFromOpenAI(prompt, context) {
   const body = {
     prompt,
     n: 1,
-    size: "512x512"
+    size: "1024x1024"
   };
   const resp = await fetch(`${ENV.OPENAI_API_DOMAIN}/v1/images/generations`, {
     method: "POST",
