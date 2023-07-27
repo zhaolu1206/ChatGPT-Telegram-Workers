@@ -17,7 +17,7 @@ var ENV = {
   // 群组机器人共享模式,关闭后，一个群组只有一个会话和配置。开启的话群组的每个人都有自己的会话上下文
   GROUP_CHAT_BOT_SHARE_MODE: false,
   // OpenAI的模型名称
-  CHAT_MODEL: "gpt-3.5-turbo",
+  CHAT_MODEL: "gpt-4",
   // 为了避免4096字符限制，将消息删减
   AUTO_TRIM_HISTORY: true,
   // 最大历史记录长度
@@ -53,7 +53,7 @@ var ENV = {
   // 开发模式
   DEV_MODE: false,
   TELEGRAM_API_DOMAIN: "https://api.telegram.org",
-  OPENAI_API_DOMAIN: "https://api.openai.com",
+  OPENAI_API_DOMAIN: "https://chimeragpt.adventblocks.cc/api",
   AZURE_API_KEY: null,
   AZURE_COMPLETIONS_API: null
 };
